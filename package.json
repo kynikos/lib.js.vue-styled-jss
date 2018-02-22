@@ -1,0 +1,31 @@
+{
+  "name": "@kynikos/vue-styled-jss",
+  "version": "1.0.0",
+  "author": "Dario Giovannetti",
+  "description": "JSS-styled Vue components.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kynikos/lib.js.vue-styled-jss.git"
+  },
+  "keywords": [
+    "vue jss"
+  ],
+  "scripts": {
+    "compile": "coffee --compile --transpile index.coffee"
+  },
+  "dependencies": {
+    "jss": "^9.8.0"
+  },
+  "optionalDependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "coffeescript": "^2.1.1"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  }
+}
